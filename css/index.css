@@ -244,3 +244,12 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+@media(max-width: 600px) {
+	.middle-content {
+		flex-direction:column;
+    }
+    .middle-content .boxes {
+        width: 600px;
+    }
+}
