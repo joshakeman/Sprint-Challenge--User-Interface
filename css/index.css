@@ -249,7 +249,28 @@ footer nav a {
 	.middle-content {
 		flex-direction:column;
     }
+
+    /* .middle-content .boxes {
+		flex-direction:column;
+    } */
+    /* .container {
+        width: 600px;
+    } */
+    
     .middle-content .boxes {
         width: 600px;
     }
+    
+    .middle-content .boxes .box {
+        height: 75px;
+    }
+}
+
+@media(max-width: 450px) {
+    .middle-content .boxes {
+        width: 450px;
+    }
+    .middle-content .boxes .box {
+        width: 21%;
+        height: 95px;
 }
